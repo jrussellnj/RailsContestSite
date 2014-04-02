@@ -1,0 +1,18 @@
+global: &global
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+  min_messages: warning
+  encoding: utf8
+
+development:
+  database: contestsite_development
+  <<: *global
+
+test: &test
+  database: contestsite_test<%=ENV['TEST_ENV_NUMBER']%>
+  <<: *global
+
+production:
+  database: contestsite_production
+  <<: *global
