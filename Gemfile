@@ -9,6 +9,8 @@ gem 'foreman'                   # Use unicorn locally
 gem 'paperclip'                 # For attaching files 
 gem 'protected_attributes'      # For protecting model from mass assignment attacks with attr_accessible
 gem 'activeadmin', github: 'gregbell/active_admin'
+gem 'zencoder'                  # For video encoding through Zencoder
+gem 'sendgrid'                  # For sending out emails through Sendgrid
 
 # OPTIONAL GEMS - Pick your features
 
@@ -17,7 +19,7 @@ gem 'activeadmin', github: 'gregbell/active_admin'
 # gem "ffi", "~> 1.3"         # Required for vagrant - wacky dependency thing
 
 # File handling:
-# gem 'aws-sdk'             # For storing uploaded files on S3
+gem 'aws-sdk'             # For storing uploaded files on S3
 
 # User handling:
 # gem 'devise'              # For creating and managing users
