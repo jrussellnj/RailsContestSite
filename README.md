@@ -1,4 +1,4 @@
-# RTO+P Ruby on Rails Contest Site Boilerplate
+# RTO+P Rails Contest Site Boilerplate
 This project is a fast-start boilerplate for creating a contest Ruby on Rails site with entries and prizes. It's designed to be highly compatible with the common development practices at [Red Tettemer O'Connell + Partners](http://rtop.com) in Philadelphia. 
 
 ## What's included
